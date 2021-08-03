@@ -30,7 +30,7 @@ public class Produto {
 	private boolean isDisponivel;
 
 	@ManyToOne
-	@JsonIgnoreProperties("produtos")
+	@JsonIgnoreProperties("produto")
 	private Categoria categoria;
 
 	public long getId() {
